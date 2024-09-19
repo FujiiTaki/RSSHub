@@ -2,7 +2,7 @@
 
 ## Supported Version
 
-Latest commits in master branch
+Latest commits in master branch🧡
 
 ## Reporting a Vulnerability
 
