@@ -97,6 +97,9 @@ export type Config = {
     civitai: {
         cookie?: string;
     };
+    dianping: {
+        cookie?: string;
+    };
     dida365: {
         username?: string;
         password?: string;
@@ -150,6 +153,9 @@ export type Config = {
     };
     google: {
         fontsApiKey?: string;
+    };
+    guozaoke: {
+        cookies?: string;
     };
     hefeng: {
         key?: string;
@@ -497,6 +503,9 @@ const calculateValue = () => {
         civitai: {
             cookie: envs.CIVITAI_COOKIE,
         },
+        dianping: {
+            cookie: envs.DIANPING_COOKIE,
+        },
         dida365: {
             username: envs.DIDA365_USERNAME,
             password: envs.DIDA365_PASSWORD,
@@ -550,6 +559,9 @@ const calculateValue = () => {
         },
         google: {
             fontsApiKey: envs.GOOGLE_FONTS_API_KEY,
+        },
+        guozaoke: {
+            cookies: envs.GUOZAOKE_COOKIES,
         },
         hefeng: {
             // weather
